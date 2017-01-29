@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Yandex Mail Box Test Suite" parallel="false">
+    <test name="Test Yandex Mail Box">
+        <classes>
+            <class name="com.epam.atm.webDriver.tests.LoginTest"/>
+            <class name="com.epam.atm.webDriver.tests.EmailCreationTest"/>
+            <class name="com.epam.atm.webDriver.tests.EmailContentTest"/>
+            <class name="com.epam.atm.webDriver.tests.SendEmailTest"/>
+            <class name="com.epam.atm.webDriver.tests.LogoutTest"/>
+        </classes>
+    </test>
+</suite>
